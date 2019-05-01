@@ -8,7 +8,7 @@ The customer datasource is annotated with `@Primary`, thus will be the default a
 
 This example does NOT use JTA transaction manager.   Separate `EntityManagerFactoryBean` and `PlatformTransactionManager` are created for each datasource.
 
-`@Transaction` annotation for non primary datasource should be specified with the `transactionManager` attribute.  
+`@Transaction` annotation for non primary datasource transactional methods should be specified with the `transactionManager` attribute.  
 
 ## Running the application
 
